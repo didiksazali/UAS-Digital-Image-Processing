@@ -1,0 +1,24 @@
+unit U_Hasil;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs;
+
+type
+  TF_Hasil = class(TForm)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  F_Hasil: TF_Hasil;
+
+implementation
+
+{$R *.dfm}
+
+end.
